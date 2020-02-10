@@ -111,7 +111,6 @@ function avatar()
 	avatar.style.borderRadius="100%";
 	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
 	avatar.style.opacity='1';
-	avatar.style.borderLeft=30;
 	avatar.style.position="relative";
 	avatar.style.left=40;
 }
