@@ -97,6 +97,7 @@ function pole()
 	panel_logowania.style.width=279;
 	panel_logowania.style.height=300;
 	panel_logowania.style.position="relative";
+	panel_logowania.style.backgroundColor="red";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=109;
 	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center>';
