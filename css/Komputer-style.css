@@ -1,4 +1,4 @@
-body{margin: 0; background-color: black; color: #ffffff; font-family: 'Raleway', serif; overflow: hidden; font-weight: 30px;}
+body{margin: 0; background-color: black; color: #ffffff; font-family: 'Source Sans Pro', sans-serif; overflow: hidden; font-weight: 30px;}
 #logo{background-color: green; width: 100%; min-height: 5px; padding: 10px; color: red; text-align: center; border: 2px blue; border-radius: 5px;}
 #menu{color: green; width: 100%; margin-bottom: 20px;}
 a.guzik{ text-decoration: none; color: red;  font-size: 20px; margin-left: 15px;}
