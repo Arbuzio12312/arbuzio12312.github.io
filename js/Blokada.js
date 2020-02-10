@@ -100,7 +100,7 @@ function pole()
 	panel_logowania.style.backgroundColor="red";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=203;
-	panel_logowania.innerHTML='<div id="avatar"></div><center><br /><h3>inny Użytkownik</h3></center>';
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h3>inny Użytkownik</h3></center>';
 	avatar();
 }
 function avatar()
