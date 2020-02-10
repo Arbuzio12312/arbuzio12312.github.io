@@ -90,7 +90,7 @@ function pole()
 	ekran.style.height="100%";
 	ekran.style.backgroundImage='url("/obrazy/tapeta.jpg")';
 	ekran.style.backgroundRepeat="no-repeat";
-	ekran.style.backgroundSize="90%";
+	ekran.style.backgroundSize="100% 100%";
 	ekran.style.backgroundPosition="center";
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
