@@ -5,7 +5,7 @@ function blokada()
 	body.style.height="100%";
 	body.style.backgroundImage='url("/obrazy/blokada.jpg")';
 	body.style.backgroundRepeat="no-repeat";
-	body.style.backgroundSize="90%";
+	body.style.backgroundSize="100% 100%";
 	body.style.backgroundPosition="center";
 	body.innerHTML='<div id="zegar"></div>'
 	zegarek();
