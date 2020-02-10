@@ -97,7 +97,7 @@ function pole()
 	panel_logowania.style.width=289;
 	panel_logowania.style.height=300;
 	panel_logowania.style.position="relative";
-	panel_logowania.style.fontFamily="Montserrat,sans-serif"
+	panel_logowania.style.fontFamily="Raleway,sans-serif";
 	panel_logowania.style.backgroundColor="red";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=203;
