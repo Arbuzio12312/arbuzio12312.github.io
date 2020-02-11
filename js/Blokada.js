@@ -135,9 +135,8 @@ function inputs()
 }
 function napis()
 {
-	var input = document.querySelector(".logowanie");
-	var napis = input.value;
-	if(napia=="login")
+	var napis = document.querySelector(".logowanie");
+	if(napis.value=="login")
 	{
 		napis.value="";
 		napis.color="grey";
