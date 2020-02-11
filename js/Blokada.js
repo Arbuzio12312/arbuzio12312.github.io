@@ -100,7 +100,7 @@ function pole()
 	panel_logowania.style.backgroundColor="red";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=109;
-	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><br /><br /><input type="text" class="logowanie" name="login" /><br /><input type="password" class="logowanie" name="password" />';
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><br /><br /><center><input type="text" class="logowanie" name="login" /><br /><input type="password" class="logowanie" name="password" /></center>';
 	avatar();
 }
 function avatar()
@@ -118,5 +118,5 @@ function avatar()
 function inputs()
 {
 	var klasa = document.querySelector(".logowanie");
-	klasa.style.color="green";
+	klasa.style.color="black";
 }
