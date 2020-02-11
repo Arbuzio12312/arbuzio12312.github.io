@@ -117,6 +117,6 @@ function avatar()
 }
 function inputs()
 {
-	var klasa = document.querySelection(".logowanie");
+	var klasa = document.querySelector(".logowanie");
 	klasa.style.color="green";
 }
