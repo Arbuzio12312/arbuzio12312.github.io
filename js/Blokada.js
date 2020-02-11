@@ -122,5 +122,10 @@ function inputs()
 	klasa.style.width=195;
 	haslo.style.color="black";
 	haslo.style.width=195;
-	klasa.style.height=50;
+	klasa.style.height=29;
+	haslo.style.height=29;
+	klasa.style.fontSize=20;
+	haslo.style.fontSize=20;
+	klasa.style.textAling="center";
+	haslo.style.textAling="center";
 }
