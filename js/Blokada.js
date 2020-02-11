@@ -95,7 +95,7 @@ function pole()
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
 	panel_logowania.style.width=279;
-	panel_logowania.style.height=300;
+	panel_logowania.style.height=600;
 	panel_logowania.style.position="relative";
 	panel_logowania.style.backgroundColor="red";
 	panel_logowania.style.left=560;
