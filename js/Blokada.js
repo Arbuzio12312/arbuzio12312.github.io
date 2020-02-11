@@ -128,4 +128,10 @@ function inputs()
 	haslo.style.fontSize=20;
 	klasa.style.textAlign="center";
 	haslo.style.textAlign="center";
+	klasa.style.backgroundColor="rgba(0,0,0,0.5)";
+	klasa.style.color="rgba(0,0,0,0.5)";
+	klasa.borderColor="black";
+	haslo.style.backgroundColor="rgba(0,0,0,0.5)";
+	haslo.style.color="rgba(0,0,0,0.5)";
+	haslo.borderColor="black";
 }
