@@ -5,3 +5,4 @@ a.guzik{ text-decoration: none; color: red;  font-size: 20px; margin-left: 15px;
 a.guzik:hover{color: yellow;}
 .pole{color: #fffff; background-color: transparent;}
 #loguj {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+#avatar{width: 192px; height: 192px; border-radius: 100%; background-image: url("/obrazy/user-192.png"); margin-left: auto; margin-right: auto;}
