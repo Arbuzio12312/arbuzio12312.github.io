@@ -94,11 +94,6 @@ function pole()
 	ekran.style.backgroundPosition="center";
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
-	panel_logowania.style.width=279;
-	panel_logowania.style.height=600;
-	panel_logowania.style.position="relative";
-	panel_logowania.style.left=560;
-	panel_logowania.style.top=109;
 	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" onclick="login();" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" onclick="haslo();"/></center>';
 	avatar();
 }
