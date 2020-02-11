@@ -99,7 +99,7 @@ function pole()
 	panel_logowania.style.position="relative";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=109;
-	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" onclick="napis();" /><br /><br /><input type="password" id="haslo" name="password" /></center>';
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" onclick="login();" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" onclick="haslo();"/></center>';
 	avatar();
 }
 function avatar()
@@ -133,12 +133,22 @@ function inputs()
 	haslo.style.color="rgba(0,0,0,0.3)";
 	haslo.style.borderColor="black";
 }
-function napis()
+function login()
 {
 	var napis = document.querySelector(".logowanie");
 	if(napis.value=="login")
 	{
 		napis.value="";
 		napis.color="grey";
+	}
+}
+function haslo()
+{
+	var pas = document.getElementById("haslo");//pis xd
+	if(pas.value=="hasło")
+	{
+		pas.value="";
+		pas.color="grey";
+		pas.type="password";
 	}
 }
