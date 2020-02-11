@@ -122,4 +122,5 @@ function inputs()
 	klasa.style.width=195;
 	haslo.style.color="black";
 	haslo.style.width=195;
+	klasa.style.height=50;
 }
