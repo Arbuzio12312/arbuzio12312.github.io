@@ -136,7 +136,7 @@ function inputs()
 function login()
 {
 	var napis = document.querySelector(".logowanie");
-	if((napis.value=="login")&&(napis.style.color="rgba(0,0,0,0.5)"))
+	if((napis.value=="login")&&(napis.style.color=="rgba(0,0,0,0.5)"))
 	{
 		napis.value="";
 		napis.style.color="grey";
@@ -145,7 +145,7 @@ function login()
 function haslo()
 {
 	var pas = document.getElementById("haslo");//pis xd
-	if((pas.value=="hasło")&&(pas.style.color="rgba(0,0,0,0.5)"))
+	if((pas.value=="hasło")&&(pas.style.color=="rgba(0,0,0,0.5)"))
 	{
 		pas.value="";
 		pas.style.color="grey";
