@@ -139,7 +139,7 @@ function login()
 	if(napis.value=="login")
 	{
 		napis.value="";
-		napis.color="grey";
+		napis.color="rgba(0,0,0,1.0)";
 	}
 }
 function haslo()
@@ -148,7 +148,7 @@ function haslo()
 	if(pas.value=="hasło")
 	{
 		pas.value="";
-		pas.color="grey";
+		pas.color="rgba(0,0,0,1.0)";
 		pas.type="password";
 	}
 }
