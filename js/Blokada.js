@@ -118,9 +118,7 @@ function inputs()
 {
 	var klasa = document.querySelector(".logowanie");
 	var haslo = document.getElementById("haslo");
-	klasa.style.color="black";
 	klasa.style.width=195;
-	haslo.style.color="black";
 	haslo.style.width=195;
 	klasa.style.height=29;
 	haslo.style.height=29;
@@ -129,9 +127,9 @@ function inputs()
 	klasa.style.textAlign="center";
 	haslo.style.textAlign="center";
 	klasa.style.backgroundColor="rgba(0,0,0,0.5)";
-	klasa.style.color="rgba(0,0,0,0.5)";
-	klasa.borderColor="black";
+	klasa.style.color="rgba(0,0,0,0.3)";
+	klasa.style.borderColor="black";
 	haslo.style.backgroundColor="rgba(0,0,0,0.5)";
-	haslo.style.color="rgba(0,0,0,0.5)";
-	haslo.borderColor="black";
+	haslo.style.color="rgba(0,0,0,0.3)";
+	haslo.style.borderColor="black";
 }
