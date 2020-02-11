@@ -128,10 +128,10 @@ function inputs()
 	haslo.style.textAlign="center";
 	klasa.style.backgroundColor="rgba(0,0,0,0.5)";
 	klasa.style.color="rgba(0,0,0,0.5)";
-	klasa.style.borderColor="black";
+	klasa.style.borderColor="white";
 	haslo.style.backgroundColor="rgba(0,0,0,0.5)";
 	haslo.style.color="rgba(0,0,0,0.5)";
-	haslo.style.borderColor="black";
+	haslo.style.borderColor="white";
 }
 function login()
 {
