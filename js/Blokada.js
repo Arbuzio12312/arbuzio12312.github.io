@@ -126,6 +126,6 @@ function inputs()
 	haslo.style.height=29;
 	klasa.style.fontSize=20;
 	haslo.style.fontSize=20;
-	klasa.style.textAling="center";
-	haslo.style.textAling="center";
+	klasa.style.textAlign="center";
+	haslo.style.textAlign="center";
 }
