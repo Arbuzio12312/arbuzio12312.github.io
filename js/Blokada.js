@@ -104,6 +104,8 @@ function avatar()
 	avatar.style.height=192;
 	avatar.style.borderRadius="100%";
 	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
+	avatar.style.marginLeft="auto";
+    	avatar.style.marginRight="auto";
 	inputs();
 }
 function inputs()
