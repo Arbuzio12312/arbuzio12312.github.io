@@ -16,11 +16,12 @@ function zegarek()
 {
 	var zegar = document.getElementById("zegar");
 	zegar.style.height=150;
-	zegar.style.width=500;
-	zegar.style.position="relative";
-	zegar.style.left=70;
-	zegar.style.top=500;
-	zegar.style.fontSize=40;
+        zegar.style.width=500;
+        zegar.style.position="absolute";
+        zegar.style.left=70;
+        zegar.style.bottom=0;
+        zegar.style.fontSize=40;
+        zegar.style.marginBottom=20;
 	czas();
 }
 var timer1 = setTimeout("czas()", 1000);
