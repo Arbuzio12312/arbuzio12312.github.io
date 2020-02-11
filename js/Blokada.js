@@ -95,17 +95,6 @@ function pole()
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
 	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" onclick="login();" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" onclick="haslo();"/></center>';
-	avatar();
-}
-function avatar()
-{
-	var avatar = document.getElementById("avatar");
-	avatar.style.width=192;
-	avatar.style.height=192;
-	avatar.style.borderRadius="100%";
-	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
-	avatar.style.marginLeft="auto";
-    	avatar.style.marginRight="auto";
 	inputs();
 }
 function inputs()
