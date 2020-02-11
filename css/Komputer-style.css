@@ -4,3 +4,4 @@ body{margin: 0; background-color: black; color: #ffffff; font-family: 'Source Sa
 a.guzik{ text-decoration: none; color: red;  font-size: 20px; margin-left: 15px;}
 a.guzik:hover{color: yellow;}
 .pole{color: #fffff; background-color: transparent;}
+#loguj {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
