@@ -119,4 +119,5 @@ function inputs()
 {
 	var klasa = document.querySelector(".logowanie");
 	klasa.style.color="black";
+	klasa.style.width=50;
 }
