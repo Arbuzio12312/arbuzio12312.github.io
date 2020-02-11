@@ -99,7 +99,7 @@ function pole()
 	panel_logowania.style.position="relative";
 	panel_logowania.style.left=560;
 	panel_logowania.style.top=109;
-	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><br /><center><input type="text" class="logowanie" name="login" /><br /><br /><input type="password" id="haslo" name="password" /></center>';
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" /><br /><br /><input type="password" id="haslo" name="password" /></center>';
 	avatar();
 }
 function avatar()
