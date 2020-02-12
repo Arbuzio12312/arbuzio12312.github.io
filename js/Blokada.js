@@ -95,7 +95,7 @@ function pole()
 	ekran.style.backgroundPosition="center";
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
-	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" onclick="login();" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" onclick="haslo();"/></center>';
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" id="L" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" /></center>';
 	inputs();
 }
 function inputs()
@@ -136,3 +136,4 @@ function haslo()
 		pas.type="password";
 	}
 }
+var input1 = 
