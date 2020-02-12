@@ -136,7 +136,7 @@ function haslo()
 		pas.type="password";
 	}
 }
-var input1 = document.getElementById("L");
+var input1 = document.getElementById("haslo");
 input1.addEventListener("click", function (){
 haslo();
 });
