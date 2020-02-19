@@ -100,7 +100,6 @@ function pole()
 }
 function inputs()
 {
-<<<<<<< HEAD
 	var avatar = document.getElementById("avatar");
 	avatar.style.width=192;
 	avatar.style.height=192;
@@ -108,7 +107,6 @@ function inputs()
 	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
 	avatar.style.opacity='0';
 }
-=======
 	var klasa = document.querySelector(".logowanie");
 	var haslo = document.getElementById("haslo");
 	klasa.style.width=195;
