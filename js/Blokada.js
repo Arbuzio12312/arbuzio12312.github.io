@@ -101,20 +101,20 @@ function pole()
 function inputs()
 {
 	var avatar = document.getElementById("avatar");
-	avatar.style.width=192;
-	avatar.style.height=192;
+	avatar.style.width="192";
+	avatar.style.height="192";
 	avatar.style.borderRadius="100%";
 	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
 	avatar.style.opacity='0';
 }
 	var klasa = document.querySelector(".logowanie");
 	var haslo = document.getElementById("haslo");
-	klasa.style.width=195;
-	haslo.style.width=195;
-	klasa.style.height=29;
-	haslo.style.height=29;
-	klasa.style.fontSize=20;
-	haslo.style.fontSize=20;
+	klasa.style.width="195";
+	haslo.style.width="195";
+	klasa.style.height="29";
+	haslo.style.height="29";
+	klasa.style.fontSize="20";
+	haslo.style.fontSize="20";
 	klasa.style.textAlign="center";
 	haslo.style.textAlign="center";
 	klasa.style.backgroundColor="rgba(0,0,0,0.5)";
