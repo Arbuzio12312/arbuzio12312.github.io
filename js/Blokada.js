@@ -123,7 +123,6 @@ function inputs()
 	haslo.style.backgroundColor="rgba(0,0,0,0.5)";
 	haslo.style.color="rgba(0,0,0,0.5)";
 	haslo.style.borderColor="white";
-}
 function login()
 {
 	var napis = document.querySelector(".logowanie");
