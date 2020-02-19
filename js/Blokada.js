@@ -5,7 +5,7 @@ function blokada()
 	body.style.height="100%";
 	body.style.backgroundImage='url("/obrazy/blokada.jpg")';
 	body.style.backgroundRepeat="no-repeat";
-	body.style.backgroundSize="90%";
+	body.style.backgroundSize="100% 100%";
 	body.style.backgroundPosition="center";
 	body.innerHTML='<div id="zegar"></div>'
 	zegarek();
@@ -16,11 +16,12 @@ function zegarek()
 {
 	var zegar = document.getElementById("zegar");
 	zegar.style.height=150;
-	zegar.style.width=500;
-	zegar.style.position="relative";
-	zegar.style.left=70;
-	zegar.style.top=500;
-	zegar.style.fontSize=40;
+        zegar.style.width=500;
+        zegar.style.position="absolute";
+        zegar.style.left=70;
+        zegar.style.bottom=0;
+        zegar.style.fontSize=40;
+        zegar.style.marginBottom=20;
 	czas();
 }
 var timer1 = setTimeout("czas()", 1000);
@@ -90,25 +91,57 @@ function pole()
 	ekran.style.height="100%";
 	ekran.style.backgroundImage='url("/obrazy/tapeta.jpg")';
 	ekran.style.backgroundRepeat="no-repeat";
-	ekran.style.backgroundSize="90%";
+	ekran.style.backgroundSize="100% 100%";
 	ekran.style.backgroundPosition="center";
 	ekran.innerHTML='<div id="loguj"></div>';
 	var panel_logowania = document.getElementById("loguj");
-	panel_logowania.style.width=289;
-	panel_logowania.style.height=300;
-	panel_logowania.style.position="relative";
-	panel_logowania.style.backgroundColor="red";
-	panel_logowania.style.left=560;
-	panel_logowania.style.top=203;
-	panel_logowania.innerHTML='<div id="avatar"></div>';
-	avatar();
+	panel_logowania.innerHTML='<div id="avatar"></div><center><h2>Inny użytkownik</h2></center><center><input type="text" class="logowanie" name="login" value="login" id="L" /><br /><br /><input type="text" value="hasło" id="haslo" name="password" /></center>';
+	inputs();
 }
-function avatar()
+function inputs()
 {
+<<<<<<< HEAD
 	var avatar = document.getElementById("avatar");
 	avatar.style.width=192;
 	avatar.style.height=192;
 	avatar.style.borderRadius="100%";
 	avatar.style.backgroundImage='url("/obrazy/user-192.png")';
 	avatar.style.opacity='0';
+}
+=======
+	var klasa = document.querySelector(".logowanie");
+	var haslo = document.getElementById("haslo");
+	klasa.style.width=195;
+	haslo.style.width=195;
+	klasa.style.height=29;
+	haslo.style.height=29;
+	klasa.style.fontSize=20;
+	haslo.style.fontSize=20;
+	klasa.style.textAlign="center";
+	haslo.style.textAlign="center";
+	klasa.style.backgroundColor="rgba(0,0,0,0.5)";
+	klasa.style.color="rgba(0,0,0,0.5)";
+	klasa.style.borderColor="white";
+	haslo.style.backgroundColor="rgba(0,0,0,0.5)";
+	haslo.style.color="rgba(0,0,0,0.5)";
+	haslo.style.borderColor="white";
+}
+function login()
+{
+	var napis = document.querySelector(".logowanie");
+	if(napis.value=="login")
+	{
+		napis.value="";
+		napis.style.color="grey";
+	}
+}
+function haslo()
+{
+	var pas = document.getElementById("haslo");//pis xd
+	if(pas.value=="hasło")
+	{
+		pas.value="";
+		pas.style.color="grey";
+		pas.type="password";
+	}
 }
