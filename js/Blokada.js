@@ -109,9 +109,9 @@ function inputs()
 }
 	var klasa = document.querySelector(".logowanie");
 	var haslo = document.getElementById("haslo");
-	klasa.style.width="195";
-	haslo.style.width="195";
-	klasa.style.height="29";
+	klasa.style.width=195;
+	haslo.style.width=195;
+	klasa.style.height=29;
 	haslo.style.height="29";
 	klasa.style.fontSize="20";
 	haslo.style.fontSize="20";
